@@ -102,7 +102,7 @@ function validateForm(siteName, siteUrl) {
   var regex = new RegExp(expression);
 
   if (!siteUrl.match(regex)) {
-    alert('Please use a valid URL');
+    alert('Please use a vailid website URL. It\'s best to copy and paste the entire web address from your browser\'s address bar ;-)');
     return false;
   }
 

@@ -2,6 +2,7 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  background: url(../library-background.jpg) no-repeat center fixed; ;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -10,11 +11,13 @@ body {
 .footer {
   padding-right: 1rem;
   padding-left: 1rem;
+  background-color: #FFFFFF;
+  border-radius: .5rem;
 }
 
 /* Custom page header */
 .header {
-  padding-bottom: 1rem;
+  padding-bottom: .25rem;
   border-bottom: .05rem solid #e5e5e5;
 }
 
@@ -22,14 +25,17 @@ body {
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 1em;
   line-height: 3rem;
 }
 
 /* Custom page footer */
 .footer {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: .25rem;
   color: #777;
   border-top: .05rem solid #e5e5e5;
+  text-align: center;
 }
 
 /* Customize container */
@@ -54,6 +60,7 @@ body {
   padding: .5rem 1.5rem;
   font-size: 1.5rem;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 /* Supporting marketing content */
